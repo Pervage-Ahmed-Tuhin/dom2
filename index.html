@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculating monster</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <H1 style="display: flex; justify-content: center;">area calculating machine</H1>
+
+
+        <div class="main-box" style="text-align: center;">
+            <h3>Triangle area : 0.5 * base * height</h3>
+
+            <div class="box-inner" style="justify-content: center;">
+                <input id="triangle-base" type="text" placeholder="base">
+                <input id="triangle-height" type="text" placeholder="height">
+            </div>
+
+            <p>Area : <span id="area-container">0</span> <span>cm <sup>2</sup></span></p>
+            <button onclick="calculateAreaOfTriangle()">Calculate</button>
+        </div>
+
+    </div>
+
+        <div class="main-box" style="text-align: center;">
+            <h3>Rectangle area : height * weidth</h3>
+
+            <div class="box-inner" style="justify-content: center;">
+                <input id="Rectangle-height" type="text" placeholder="height">
+                <input id="Rectangle-weidth" type="text" placeholder="width">
+            </div>
+
+            <p>Area : <span id="Rectangle-area-container">0</span> <span>cm <sup>2</sup></span></p>
+            <button onclick="calculateAreaOfrectangle()">Calculate</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
